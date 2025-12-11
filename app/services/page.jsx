@@ -22,9 +22,9 @@ export default function Services() {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 mb-12 sm:mb-16">
               <div className="bg-white p-6 sm:p-8 md:p-10 rounded-xl shadow-lg hover:shadow-2xl transition-smooth-lg border border-gray-100 hover:border-blue-200 group animate-slideInLeft overflow-hidden" style={{ animationDelay: '0.1s' }}>
-                <div className="relative w-full h-40 sm:h-48 md:h-56 mb-6 rounded-lg overflow-hidden group-hover:scale-105 transition-smooth">
+                <div className="relative w-full h-40 sm:h-48 md:h-56 mb-6 rounded-lg overflow-hidden group-hover:scale-105 transition-smooth bg-gray-200">
                   <Image
-                    src="/webdev.jfif"
+                    src="/webdev.png"
                     alt="Web Development Services"
                     fill
                     className="object-cover"
@@ -65,9 +65,9 @@ export default function Services() {
               </div>
 
               <div className="bg-white p-6 sm:p-8 md:p-10 rounded-xl shadow-lg hover:shadow-2xl transition-smooth-lg border border-gray-100 hover:border-blue-200 group animate-slideInRight overflow-hidden" style={{ animationDelay: '0.2s' }}>
-                <div className="relative w-full h-40 sm:h-48 md:h-56 mb-6 rounded-lg overflow-hidden group-hover:scale-105 transition-smooth">
+                <div className="relative w-full h-40 sm:h-48 md:h-56 mb-6 rounded-lg overflow-hidden group-hover:scale-105 transition-smooth bg-gray-200">
                   <Image
-                    src="/seo.jfif"
+                    src="/seo.png"
                     alt="SEO Optimization Services"
                     fill
                     className="object-cover"
