@@ -51,15 +51,16 @@ export default function Home() {
 
             <div className="grid md:grid-cols-2 gap-6 sm:gap-8 mb-12 sm:mb-16">
               <div className="bg-white p-6 sm:p-8 md:p-10 rounded-xl shadow-lg hover:shadow-2xl transition-smooth-lg border border-gray-100 animate-slideInLeft hover:border-blue-200 group overflow-hidden" style={{ animationDelay: '0.1s' }}>
-                <div className="relative w-full h-40 sm:h-48 md:h-56 mb-6 rounded-lg overflow-hidden group-hover:scale-105 transition-smooth bg-gray-200">
+                <div className="relative w-full h-40 sm:h-48 md:h-56 mb-6 rounded-lg overflow-hidden bg-gray-200 transform transition-all duration-500 ease-out group-hover:scale-110">
                   <Image
-                    src="/webdev.png"
+                    src="/web.png"
                     alt="Web Development Services"
                     fill
-                    className="object-cover"
+                    className="object-cover transition-all duration-700 ease-out group-hover:brightness-110 group-hover:saturate-125"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     priority
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
                 <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4">Web Development</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
@@ -86,15 +87,16 @@ export default function Home() {
               </div>
 
               <div className="bg-white p-6 sm:p-8 md:p-10 rounded-xl shadow-lg hover:shadow-2xl transition-smooth-lg border border-gray-100 animate-slideInRight hover:border-blue-200 group overflow-hidden" style={{ animationDelay: '0.2s' }}>
-                <div className="relative w-full h-40 sm:h-48 md:h-56 mb-6 rounded-lg overflow-hidden group-hover:scale-105 transition-smooth bg-gray-200">
+                <div className="relative w-full h-40 sm:h-48 md:h-56 mb-6 rounded-lg overflow-hidden bg-gray-200 transform transition-all duration-500 ease-out group-hover:scale-110">
                   <Image
-                    src="/seo.png"
+                    src="/seoo.jpg"
                     alt="SEO Optimization Services"
                     fill
-                    className="object-cover"
+                    className="object-cover transition-all duration-700 ease-out group-hover:brightness-110 group-hover:saturate-125"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     priority
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
                 <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4">SEO</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
